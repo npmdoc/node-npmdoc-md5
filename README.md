@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/md5.png?downloads=true)](https://www.npmjs.com/package/md5)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-md5/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-md5_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-md5/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-md5/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-md5_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-md5/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-md5/build/screenCapture.npmPackageListing.svg)
 
