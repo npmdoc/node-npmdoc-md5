@@ -1,9 +1,14 @@
-# api documentation for  [md5 (v2.2.1)](https://github.com/pvorb/node-md5#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-md5.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-md5) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-md5.svg)](https://travis-ci.org/npmdoc/node-npmdoc-md5)
+# npmdoc-md5
+
+#### api documentation for  [md5 (v2.2.1)](https://github.com/pvorb/node-md5#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-md5.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-md5) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-md5.svg)](https://travis-ci.org/npmdoc/node-npmdoc-md5)
+
 #### js function for hashing messages with MD5
 
-[![NPM](https://nodei.co/npm/md5.png?downloads=true)](https://www.npmjs.com/package/md5)
+[![NPM](https://nodei.co/npm/md5.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/md5)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-md5/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-md5_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-md5/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-md5/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-md5/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-md5/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-md5/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-md5/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Paul Vorbach",
-        "email": "paul@vorba.ch",
         "url": "http://paul.vorba.ch"
     },
     "bugs": {
@@ -49,17 +53,14 @@
     "main": "md5.js",
     "maintainers": [
         {
-            "name": "coolaj86",
-            "email": "coolaj86@gmail.com"
+            "name": "coolaj86"
         },
         {
-            "name": "pvorb",
-            "email": "paul@vorba.ch"
+            "name": "pvorb"
         }
     ],
     "name": "md5",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/pvorb/node-md5.git"
@@ -76,16 +77,6 @@
     "version": "2.2.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module md5](#apidoc.module.md5)
-
-
-
-# <a name="apidoc.module.md5"></a>[module md5](#apidoc.module.md5)
 
 
 
