@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/pvorb/node-md5#readme"
-
-    >md5 (v2.2.1)</a>
+    <a href="https://github.com/pvorb/node-md5#readme">md5 (v2.2.1)</a>
 </h1>
 <h4>js function for hashing messages with MD5</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.md5">module md5</a><ol>
 
@@ -109,11 +102,11 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">md5 = function (message, options) {
   if (message === undefined || message === null)
-    throw new Error(&#x27;Illegal argument &#x27; + message);
+    throw new Error('Illegal argument ' + message);
 
   var digestbytes = crypt.wordsToBytes(md5(message, options));
-  return options &#x26;&#x26; options.asBytes ? digestbytes :
-      options &#x26;&#x26; options.asString ? bin.bytesToString(digestbytes) :
+  return options &amp;&amp; options.asBytes ? digestbytes :
+      options &amp;&amp; options.asString ? bin.bytesToString(digestbytes) :
       crypt.bytesToHex(digestbytes);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -132,7 +125,7 @@
     return text;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  if (options &#x26;&#x26; options.encoding === &#x27;binary&#x27;)
+  if (options &amp;&amp; options.encoding === 'binary')
     message = bin.stringToBytes(message);
   else
     message = utf8.stringToBytes(message);
@@ -166,7 +159,7 @@ var m = crypt.bytesToWords(message),
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  if (options &#x26;&#x26; options.encoding === &#x27;binary&#x27;)
+  if (options &amp;&amp; options.encoding === 'binary')
     message = bin.stringToBytes(message);
   else
     message = utf8.stringToBytes(message);
@@ -193,3 +186,4 @@ var m = crypt.bytesToWords(message),
     ]
 </div>
 </div>
+</body></html>

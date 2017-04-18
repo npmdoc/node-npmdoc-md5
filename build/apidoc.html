@@ -61,12 +61,129 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.md5">module md5</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.md5.md5">
+            function <span class="apidocSignatureSpan"></span>md5
+            <span class="apidocSignatureSpan">(message, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.md5.toString">
+            function <span class="apidocSignatureSpan">md5.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.md5.toString">module md5.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.md5.toString.toString">
+            function <span class="apidocSignatureSpan">md5.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.md5" id="apidoc.module.md5">module md5</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.md5.md5" id="apidoc.element.md5.md5">
+        function <span class="apidocSignatureSpan"></span>md5
+        <span class="apidocSignatureSpan">(message, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">md5 = function (message, options) {
+  if (message === undefined || message === null)
+    throw new Error(&#x27;Illegal argument &#x27; + message);
+
+  var digestbytes = crypt.wordsToBytes(md5(message, options));
+  return options &#x26;&#x26; options.asBytes ? digestbytes :
+      options &#x26;&#x26; options.asString ? bin.bytesToString(digestbytes) :
+      crypt.bytesToHex(digestbytes);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.md5.toString" id="apidoc.element.md5.toString">
+        function <span class="apidocSignatureSpan">md5.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  if (options &#x26;&#x26; options.encoding === &#x27;binary&#x27;)
+    message = bin.stringToBytes(message);
+  else
+    message = utf8.stringToBytes(message);
+else if (isBuffer(message))
+  message = Array.prototype.slice.call(message, 0);
+else if (!Array.isArray(message))
+  message = message.<span class="apidocCodeKeywordSpan">toString</span>();
+// else, assume byte array already
+
+var m = crypt.bytesToWords(message),
+    l = message.length * 8,
+    a =  1732584193,
+    b = -271733879,
+    c = -1732584194,
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.md5.toString" id="apidoc.module.md5.toString">module md5.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.md5.toString.toString" id="apidoc.element.md5.toString.toString">
+        function <span class="apidocSignatureSpan">md5.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  if (options &#x26;&#x26; options.encoding === &#x27;binary&#x27;)
+    message = bin.stringToBytes(message);
+  else
+    message = utf8.stringToBytes(message);
+else if (isBuffer(message))
+  message = Array.prototype.slice.call(message, 0);
+else if (!Array.isArray(message))
+  message = message.<span class="apidocCodeKeywordSpan">toString</span>();
+// else, assume byte array already
+
+var m = crypt.bytesToWords(message),
+    l = message.length * 8,
+    a =  1732584193,
+    b = -271733879,
+    c = -1732584194,
+...</pre></li>
+    </ul>
+
 
 </div>
 
